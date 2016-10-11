@@ -1,0 +1,6 @@
+docker:
+  image: docker:dind
+  add_docker: true
+  encrypted_dockercfg_path: dockercfg.encrypted
+  volumes:
+    - .:/var/tmp/
